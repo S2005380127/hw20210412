@@ -1,0 +1,130 @@
+*{margin: 0px;padding: 0px;}
+body{
+    position: relative;
+    left: 250px;
+}
+.sm{
+    width: 1000px;
+    position: relative;
+    height: 34px;
+    display: block;
+    background-color: #e3e4e5;
+}
+
+.jt{
+    margin-left: 55px;
+    font-size: 16px;
+    position: relative; 
+    margin-top: -18px;
+    height:15px;
+    width: 20px;
+    overflow: hidden;
+    float: right;
+}
+.jd .jt p{
+    margin: 0px;
+    margin-top: -15px;
+}
+.jt p{
+    margin-top: -17px;
+}
+
+.wd li:nth-child(10){
+    margin-left: 32px;
+}
+.wd li:nth-child(12){
+    margin-left: 32px;
+}
+.wd li:nth-child(2n+1){
+    margin-right: 32px;
+}
+.wd li:nth-child(6){
+    margin-left: 32px;
+}
+.jd1 p{
+    line-height: 35px;
+}
+.jd{
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.jd:hover{
+    background-color: #fff;
+}
+.jd a:hover{
+    color: #e33333;
+}
+.jd1 li a:hover{
+    color:#e33333;
+}
+.jd:hover .wd{
+    display: block;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+}
+ul{
+    list-style: none;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+.sx{
+    margin-top: 12px;
+    width: 1px;
+    height: 10px;
+    background: #ddd;
+}
+.jd .jd1{
+    color: #999;
+    text-decoration: none;
+
+}
+.xian{
+    display: block;
+    float: left;
+    margin-top: 5px;
+    width: 250px;
+    border-top:1px solid #f1f1f1;
+}
+li a{
+    color: #999;
+    text-decoration: none;
+}
+li a:hover{
+    color: #e33333;
+}
+li{
+    
+    line-height: 35px;
+    margin-left: 20px;
+    float: left;
+}
+.jd li{
+    width: auto;
+    margin-right: 16px;
+    line-height: 30px;
+    margin-top: 8px;
+    float: left;
+}
+
+
+.hon{
+    color: #e33333;
+}
+.wd{
+   display: none;
+   border-bottom: 1px solid #f1f1f1;
+   border-right: 1px solid #f1f1f1;
+   border-left: 1px solid #f1f1f1;
+   height: 200px;
+   width: 250px;
+}
+
+img{
+    position:absolute;
+    width: 1000px;
+    left: 0px;
+    z-index: -1;
+}
